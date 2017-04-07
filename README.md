@@ -6,6 +6,9 @@
 * iOS 10.3以上。
 * 图书服务网站：http://www.51work6.com/forum.php?mod=forumdisplay&fid=101
 * 视频平台：http://www.zhijieketang.com
+* QQ交流群：162030268
+* 邮箱：eorient@sina.com
+* 新浪微博：tony_关东升
 
 ### 《从零开始学Swift第2版》目录
 
