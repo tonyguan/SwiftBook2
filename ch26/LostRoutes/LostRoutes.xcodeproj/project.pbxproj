@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA153F981E2257820021C05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153F971E2257820021C05B /* AppDelegate.swift */; };
+		EA153F9A1E2257820021C05B /* WelcomeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153F991E2257820021C05B /* WelcomeScene.sks */; };
+		EA153F9E1E2257820021C05B /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153F9D1E2257820021C05B /* WelcomeScene.swift */; };
+		EA153FA01E2257820021C05B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153F9F1E2257820021C05B /* GameViewController.swift */; };
+		EA153FA31E2257820021C05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA153FA11E2257820021C05B /* Main.storyboard */; };
+		EA153FA51E2257820021C05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA153FA41E2257820021C05B /* Assets.xcassets */; };
+		EA153FA81E2257820021C05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA153FA61E2257820021C05B /* LaunchScreen.storyboard */; };
+		EA153FB51E22580A0021C05B /* SKScene+Addon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FB01E22580A0021C05B /* SKScene+Addon.swift */; };
+		EA153FB61E22580A0021C05B /* WKLabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FB11E22580A0021C05B /* WKLabelButton.swift */; };
+		EA153FB71E22580A0021C05B /* WKSoundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FB21E22580A0021C05B /* WKSoundHelper.swift */; };
+		EA153FB81E22580A0021C05B /* WKSpriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FB31E22580A0021C05B /* WKSpriteButton.swift */; };
+		EA153FB91E22580A0021C05B /* WKSpriteToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FB41E22580A0021C05B /* WKSpriteToggleButton.swift */; };
+		EA153FBF1E2258340021C05B /* Blip.caf in Resources */ = {isa = PBXBuildFile; fileRef = EA153FBB1E2258340021C05B /* Blip.caf */; };
+		EA153FC01E2258340021C05B /* Explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = EA153FBC1E2258340021C05B /* Explosion.caf */; };
+		EA153FC11E2258340021C05B /* game_bg.aifc in Resources */ = {isa = PBXBuildFile; fileRef = EA153FBD1E2258340021C05B /* game_bg.aifc */; };
+		EA153FC21E2258340021C05B /* home_bg.aifc in Resources */ = {isa = PBXBuildFile; fileRef = EA153FBE1E2258340021C05B /* home_bg.aifc */; };
+		EA153FC81E2259AB0021C05B /* gameplay.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA153FC31E2259AB0021C05B /* gameplay.atlas */; };
+		EA153FC91E2259AB0021C05B /* home.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA153FC41E2259AB0021C05B /* home.atlas */; };
+		EA153FCA1E2259AB0021C05B /* loading.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA153FC51E2259AB0021C05B /* loading.atlas */; };
+		EA153FCB1E2259AB0021C05B /* setting_help.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA153FC61E2259AB0021C05B /* setting_help.atlas */; };
+		EA153FCC1E2259AB0021C05B /* tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA153FC71E2259AB0021C05B /* tiles.atlas */; };
+		EA153FD11E2269580021C05B /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FD01E2269580021C05B /* HomeScene.swift */; };
+		EA153FD31E22696A0021C05B /* HomeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153FD21E22696A0021C05B /* HomeScene.sks */; };
+		EA153FD51E2274860021C05B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FD41E2274860021C05B /* Configuration.swift */; };
+		EA153FD81E227BA20021C05B /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FD61E227BA20021C05B /* SettingScene.swift */; };
+		EA153FD91E227BA20021C05B /* SettingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153FD71E227BA20021C05B /* SettingScene.sks */; };
+		EA153FDC1E227C950021C05B /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FDA1E227C950021C05B /* HelpScene.swift */; };
+		EA153FDD1E227C950021C05B /* HelpScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153FDB1E227C950021C05B /* HelpScene.sks */; };
+		EA153FE01E227E6B0021C05B /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FDE1E227E6B0021C05B /* GamePlayScene.swift */; };
+		EA153FE11E227E6B0021C05B /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153FDF1E227E6B0021C05B /* GamePlayScene.sks */; };
+		EA153FE41E22A1780021C05B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA153FE21E22A1780021C05B /* GameOverScene.swift */; };
+		EA153FE51E22A1780021C05B /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA153FE31E22A1780021C05B /* GameOverScene.sks */; };
+		EA153FE71E22AC150021C05B /* 汉仪黛玉体简.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA153FCD1E2261550021C05B /* 汉仪黛玉体简.ttf */; };
+		EAF0BE2F1E232355006A0F3A /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BE2E1E232355006A0F3A /* Enemy.swift */; };
+		EAF0BE321E2328D0006A0F3A /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BE301E2328D0006A0F3A /* Bullet.swift */; };
+		EAF0BE331E2328D0006A0F3A /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0BE311E2328D0006A0F3A /* Fighter.swift */; };
+		EAF0BE391E235776006A0F3A /* air.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF0BE361E235776006A0F3A /* air.png */; };
+		EAF0BE3A1E235776006A0F3A /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAF0BE371E235776006A0F3A /* explosion.sks */; };
+		EAF0BE3B1E235776006A0F3A /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAF0BE381E235776006A0F3A /* fire.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA153F941E2257820021C05B /* LostRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA153F971E2257820021C05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA153F991E2257820021C05B /* WelcomeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WelcomeScene.sks; sourceTree = "<group>"; };
+		EA153F9D1E2257820021C05B /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
+		EA153F9F1E2257820021C05B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA153FA21E2257820021C05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA153FA41E2257820021C05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA153FA71E2257820021C05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA153FA91E2257820021C05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA153FB01E22580A0021C05B /* SKScene+Addon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+Addon.swift"; sourceTree = "<group>"; };
+		EA153FB11E22580A0021C05B /* WKLabelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKLabelButton.swift; sourceTree = "<group>"; };
+		EA153FB21E22580A0021C05B /* WKSoundHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSoundHelper.swift; sourceTree = "<group>"; };
+		EA153FB31E22580A0021C05B /* WKSpriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSpriteButton.swift; sourceTree = "<group>"; };
+		EA153FB41E22580A0021C05B /* WKSpriteToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSpriteToggleButton.swift; sourceTree = "<group>"; };
+		EA153FBB1E2258340021C05B /* Blip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blip.caf; sourceTree = "<group>"; };
+		EA153FBC1E2258340021C05B /* Explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.caf; sourceTree = "<group>"; };
+		EA153FBD1E2258340021C05B /* game_bg.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = game_bg.aifc; sourceTree = "<group>"; };
+		EA153FBE1E2258340021C05B /* home_bg.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = home_bg.aifc; sourceTree = "<group>"; };
+		EA153FC31E2259AB0021C05B /* gameplay.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = gameplay.atlas; sourceTree = "<group>"; };
+		EA153FC41E2259AB0021C05B /* home.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = home.atlas; sourceTree = "<group>"; };
+		EA153FC51E2259AB0021C05B /* loading.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = loading.atlas; sourceTree = "<group>"; };
+		EA153FC61E2259AB0021C05B /* setting_help.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = setting_help.atlas; sourceTree = "<group>"; };
+		EA153FC71E2259AB0021C05B /* tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = tiles.atlas; sourceTree = "<group>"; };
+		EA153FCD1E2261550021C05B /* 汉仪黛玉体简.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉仪黛玉体简.ttf"; sourceTree = "<group>"; };
+		EA153FD01E2269580021C05B /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		EA153FD21E22696A0021C05B /* HomeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HomeScene.sks; sourceTree = "<group>"; };
+		EA153FD41E2274860021C05B /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EA153FD61E227BA20021C05B /* SettingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		EA153FD71E227BA20021C05B /* SettingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SettingScene.sks; sourceTree = "<group>"; };
+		EA153FDA1E227C950021C05B /* HelpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
+		EA153FDB1E227C950021C05B /* HelpScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HelpScene.sks; sourceTree = "<group>"; };
+		EA153FDE1E227E6B0021C05B /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+		EA153FDF1E227E6B0021C05B /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
+		EA153FE21E22A1780021C05B /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		EA153FE31E22A1780021C05B /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		EAF0BE2E1E232355006A0F3A /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		EAF0BE301E2328D0006A0F3A /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		EAF0BE311E2328D0006A0F3A /* Fighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+		EAF0BE361E235776006A0F3A /* air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = air.png; sourceTree = "<group>"; };
+		EAF0BE371E235776006A0F3A /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		EAF0BE381E235776006A0F3A /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA153F911E2257820021C05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA153F8B1E2257820021C05B = {
+			isa = PBXGroup;
+			children = (
+				EA153F961E2257820021C05B /* LostRoutes */,
+				EA153F951E2257820021C05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA153F951E2257820021C05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA153F941E2257820021C05B /* LostRoutes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA153F961E2257820021C05B /* LostRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				EA153FC31E2259AB0021C05B /* gameplay.atlas */,
+				EA153FC41E2259AB0021C05B /* home.atlas */,
+				EA153FC51E2259AB0021C05B /* loading.atlas */,
+				EA153FC61E2259AB0021C05B /* setting_help.atlas */,
+				EA153FC71E2259AB0021C05B /* tiles.atlas */,
+				EA153FBA1E2258340021C05B /* sound */,
+				EAF0BE351E235776006A0F3A /* particle */,
+				EA153FAF1E22580A0021C05B /* BaseClass */,
+				EAF0BE341E2328D7006A0F3A /* Sprite */,
+				EA153F971E2257820021C05B /* AppDelegate.swift */,
+				EA153F991E2257820021C05B /* WelcomeScene.sks */,
+				EA153F9D1E2257820021C05B /* WelcomeScene.swift */,
+				EA153FD21E22696A0021C05B /* HomeScene.sks */,
+				EA153FD01E2269580021C05B /* HomeScene.swift */,
+				EA153FD61E227BA20021C05B /* SettingScene.swift */,
+				EA153FD71E227BA20021C05B /* SettingScene.sks */,
+				EA153FDA1E227C950021C05B /* HelpScene.swift */,
+				EA153FDB1E227C950021C05B /* HelpScene.sks */,
+				EA153FDE1E227E6B0021C05B /* GamePlayScene.swift */,
+				EA153FDF1E227E6B0021C05B /* GamePlayScene.sks */,
+				EA153FE21E22A1780021C05B /* GameOverScene.swift */,
+				EA153FE31E22A1780021C05B /* GameOverScene.sks */,
+				EA153FD41E2274860021C05B /* Configuration.swift */,
+				EA153F9F1E2257820021C05B /* GameViewController.swift */,
+				EA153FA11E2257820021C05B /* Main.storyboard */,
+				EA153FCD1E2261550021C05B /* 汉仪黛玉体简.ttf */,
+				EA153FA41E2257820021C05B /* Assets.xcassets */,
+				EA153FA61E2257820021C05B /* LaunchScreen.storyboard */,
+				EA153FA91E2257820021C05B /* Info.plist */,
+			);
+			path = LostRoutes;
+			sourceTree = "<group>";
+		};
+		EA153FAF1E22580A0021C05B /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				EA153FB01E22580A0021C05B /* SKScene+Addon.swift */,
+				EA153FB11E22580A0021C05B /* WKLabelButton.swift */,
+				EA153FB21E22580A0021C05B /* WKSoundHelper.swift */,
+				EA153FB31E22580A0021C05B /* WKSpriteButton.swift */,
+				EA153FB41E22580A0021C05B /* WKSpriteToggleButton.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		EA153FBA1E2258340021C05B /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				EA153FBB1E2258340021C05B /* Blip.caf */,
+				EA153FBC1E2258340021C05B /* Explosion.caf */,
+				EA153FBD1E2258340021C05B /* game_bg.aifc */,
+				EA153FBE1E2258340021C05B /* home_bg.aifc */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		EAF0BE341E2328D7006A0F3A /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BE2E1E232355006A0F3A /* Enemy.swift */,
+				EAF0BE301E2328D0006A0F3A /* Bullet.swift */,
+				EAF0BE311E2328D0006A0F3A /* Fighter.swift */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		EAF0BE351E235776006A0F3A /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0BE361E235776006A0F3A /* air.png */,
+				EAF0BE371E235776006A0F3A /* explosion.sks */,
+				EAF0BE381E235776006A0F3A /* fire.sks */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA153F931E2257820021C05B /* LostRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA153FAC1E2257820021C05B /* Build configuration list for PBXNativeTarget "LostRoutes" */;
+			buildPhases = (
+				EA153F901E2257820021C05B /* Sources */,
+				EA153F911E2257820021C05B /* Frameworks */,
+				EA153F921E2257820021C05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LostRoutes;
+			productName = LostRoutes;
+			productReference = EA153F941E2257820021C05B /* LostRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA153F8C1E2257820021C05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EA153F931E2257820021C05B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA153F8F1E2257820021C05B /* Build configuration list for PBXProject "LostRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA153F8B1E2257820021C05B;
+			productRefGroup = EA153F951E2257820021C05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA153F931E2257820021C05B /* LostRoutes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA153F921E2257820021C05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA153FE71E22AC150021C05B /* 汉仪黛玉体简.ttf in Resources */,
+				EA153FE11E227E6B0021C05B /* GamePlayScene.sks in Resources */,
+				EA153FA31E2257820021C05B /* Main.storyboard in Resources */,
+				EA153FC11E2258340021C05B /* game_bg.aifc in Resources */,
+				EA153F9A1E2257820021C05B /* WelcomeScene.sks in Resources */,
+				EA153FDD1E227C950021C05B /* HelpScene.sks in Resources */,
+				EA153FD31E22696A0021C05B /* HomeScene.sks in Resources */,
+				EA153FC01E2258340021C05B /* Explosion.caf in Resources */,
+				EA153FCC1E2259AB0021C05B /* tiles.atlas in Resources */,
+				EAF0BE3B1E235776006A0F3A /* fire.sks in Resources */,
+				EA153FA51E2257820021C05B /* Assets.xcassets in Resources */,
+				EA153FC81E2259AB0021C05B /* gameplay.atlas in Resources */,
+				EA153FA81E2257820021C05B /* LaunchScreen.storyboard in Resources */,
+				EA153FD91E227BA20021C05B /* SettingScene.sks in Resources */,
+				EA153FC21E2258340021C05B /* home_bg.aifc in Resources */,
+				EAF0BE391E235776006A0F3A /* air.png in Resources */,
+				EA153FC91E2259AB0021C05B /* home.atlas in Resources */,
+				EA153FCA1E2259AB0021C05B /* loading.atlas in Resources */,
+				EA153FBF1E2258340021C05B /* Blip.caf in Resources */,
+				EAF0BE3A1E235776006A0F3A /* explosion.sks in Resources */,
+				EA153FE51E22A1780021C05B /* GameOverScene.sks in Resources */,
+				EA153FCB1E2259AB0021C05B /* setting_help.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA153F901E2257820021C05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA153FB61E22580A0021C05B /* WKLabelButton.swift in Sources */,
+				EA153FDC1E227C950021C05B /* HelpScene.swift in Sources */,
+				EA153FE41E22A1780021C05B /* GameOverScene.swift in Sources */,
+				EA153FB81E22580A0021C05B /* WKSpriteButton.swift in Sources */,
+				EA153F9E1E2257820021C05B /* WelcomeScene.swift in Sources */,
+				EA153FD11E2269580021C05B /* HomeScene.swift in Sources */,
+				EA153FA01E2257820021C05B /* GameViewController.swift in Sources */,
+				EA153FB91E22580A0021C05B /* WKSpriteToggleButton.swift in Sources */,
+				EA153FD51E2274860021C05B /* Configuration.swift in Sources */,
+				EAF0BE331E2328D0006A0F3A /* Fighter.swift in Sources */,
+				EA153FE01E227E6B0021C05B /* GamePlayScene.swift in Sources */,
+				EA153FD81E227BA20021C05B /* SettingScene.swift in Sources */,
+				EAF0BE2F1E232355006A0F3A /* Enemy.swift in Sources */,
+				EA153FB71E22580A0021C05B /* WKSoundHelper.swift in Sources */,
+				EA153F981E2257820021C05B /* AppDelegate.swift in Sources */,
+				EA153FB51E22580A0021C05B /* SKScene+Addon.swift in Sources */,
+				EAF0BE321E2328D0006A0F3A /* Bullet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA153FA11E2257820021C05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA153FA21E2257820021C05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA153FA61E2257820021C05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA153FA71E2257820021C05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA153FAA1E2257820021C05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA153FAB1E2257820021C05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA153FAD1E2257820021C05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LostRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.LostRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA153FAE1E2257820021C05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LostRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51work6.LostRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA153F8F1E2257820021C05B /* Build configuration list for PBXProject "LostRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA153FAA1E2257820021C05B /* Debug */,
+				EA153FAB1E2257820021C05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA153FAC1E2257820021C05B /* Build configuration list for PBXNativeTarget "LostRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA153FAD1E2257820021C05B /* Debug */,
+				EA153FAE1E2257820021C05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA153F8C1E2257820021C05B /* Project object */;
+}
